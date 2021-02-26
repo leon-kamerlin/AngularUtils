@@ -29,8 +29,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: npm ci and npm run build:prod
         run: |
+          npm install -g npm-install-peers
           cd projects/angular-utils
-          yarn install --peer
+          npm-install-peers
           cd ../../
           npm ci
           npm run publish:ci
