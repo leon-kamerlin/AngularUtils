@@ -9,3 +9,4 @@ export * from './lib/file-size/file-size.module';
 export * from './lib/services/translation-loader/translation-loader.module';
 export * from './lib/services/translation-loader/translation-loader.service';
 export * from './lib/data-dispatcher';
+export * from './lib/selector-view';
