@@ -29,3 +29,4 @@ export * from './lib/with-access-token';
 export * from './lib/confirm-valid-parent-matcher';
 export * from './lib/form-error-state-matcher';
 export * from './lib/http-request.interceptor';
+export * from './lib/firestore-service.service';
