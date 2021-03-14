@@ -25,3 +25,4 @@ export * from './lib/service';
 export * from './lib/service-category';
 export * from './lib/time';
 export * from './lib/week-availability';
+export * from './lib/with-access-token';

@@ -1,6 +1,7 @@
 export class AuthUser {
     uid: string;
+    firstName?: string;
+    lastName?: string;
     email: string;
-    token?: string;
     emailVerified: boolean;
 }
