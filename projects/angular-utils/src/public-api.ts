@@ -26,3 +26,6 @@ export * from './lib/service-category';
 export * from './lib/time';
 export * from './lib/week-availability';
 export * from './lib/with-access-token';
+export * from './lib/confirm-valid-parent-matcher';
+export * from './lib/form-error-state-matcher';
+export * from './lib/http-request.interceptor';
