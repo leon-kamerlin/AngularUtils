@@ -1,6 +1,6 @@
 {
     "name": "leon-angular-utils",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "peerDependencies": {
         "@angular/common": "^11.2.3",
         "@angular/cdk": "~11.2.2",
@@ -9,7 +9,11 @@
         "@ngx-translate/core": "^13.0.0",
         "@angular/material": "^11.2.2",
         "@angular/fire": "^6.1.4",
-        "firebase": "^8.3.0"
+        "firebase": "^8.3.0",
+        "@ngrx/effects": "^11.0.1",
+        "@ngrx/entity": "^11.0.1",
+        "@ngrx/store": "^11.0.1",
+        "@ngrx/router-store": "^11.0.1"
     },
     "dependencies": {
         "tslib": "^2.1.0"

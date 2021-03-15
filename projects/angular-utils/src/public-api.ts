@@ -30,3 +30,6 @@ export * from './lib/confirm-valid-parent-matcher';
 export * from './lib/form-error-state-matcher';
 export * from './lib/http-request.interceptor';
 export * from './lib/firestore-service.service';
+export * from './lib/store/router-serializer';
+export * from './lib/store/router.actions';
+export * from './lib/store/router.effects';
