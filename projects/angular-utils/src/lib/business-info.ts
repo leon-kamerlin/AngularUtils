@@ -2,7 +2,10 @@ export class BusinessInfo {
     type: string;
     name: string;
     phoneNumber: string;
-    geoLocation: any;
+    geoLocation: {
+        latitude: string;
+        longitude: string;
+    };
     postalCode: number;
     streetNumber: string;
     streetName: string;
